@@ -21,3 +21,28 @@
 @import "components/side-by-side";
 @import "components/social-links";
 @import "components/spoiler";
+
+
+/* About page tweaks */
+.about-photo {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.about-social {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.6em;
+}
+
+.about-social .link {
+  color: #000;             /* force black */
+  margin: 0 8px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.about-social .link:visited { color: #000; }
+.about-social .link:hover   { color: #0077b5; } /* hover color */
