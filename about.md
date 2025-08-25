@@ -3,9 +3,8 @@ title: About
 layout: page
 ---
 
-{% if page.image and page.headerImage %}
-    <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
-{% endif %}
+<img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+
 
 <h1 class="title">{{ page.title }}</h1>
 
