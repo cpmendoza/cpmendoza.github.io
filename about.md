@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="width:150px; border-radius:50%; margin-bottom:10px;">
 
 ---
 
