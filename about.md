@@ -52,7 +52,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 ---
 
-<h2 class="contact-heading">Please do not hesitate to contact me:</h2>
+<p class="contact-heading">Please do not hesitate to contact me:</p>
 
 <div class="about-social">
   {% if site.linkedin %}
