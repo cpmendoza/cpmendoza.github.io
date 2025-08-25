@@ -7,7 +7,7 @@ layout: page
 <img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" class="about-photo">
 
 <!-- Social icons -->
-{% include social-links-about.html %}
+
 
 ---
 
