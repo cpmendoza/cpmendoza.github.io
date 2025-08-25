@@ -2,7 +2,11 @@
 title: About
 layout: page
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="width:150px; border-radius:50%; margin-bottom:10px;">
+<p>
+  <a href="https://www.linkedin.com/in/octaviopm" target="_blank">🔗 LinkedIn</a> | 
+  <a href="https://github.com/cpmendoza" target="_blank">💻 GitHub</a>
+</p>
 
 <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
