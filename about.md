@@ -48,3 +48,33 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li><a href="https://github.com/">Ipsum Dolor</a></li>
 	<li><a href="https://github.com/">Dolor Lorem</a></li>
 </ul>
+
+
+---
+
+## Please do not hesitate to contact me:
+
+<div class="about-social">
+  {% if site.linkedin %}
+    <a class="link" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+      <i class="fa-brands fa-linkedin"></i>
+    </a>
+  {% endif %}
+  {% if site.github %}
+    <a class="link" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" aria-label="GitHub">
+      <i class="fa-brands fa-github"></i>
+    </a>
+  {% endif %}
+  {% if site.email %}
+    <a class="link" href="mailto:{{ site.email }}" rel="noopener" aria-label="Email">
+      <i class="fa-regular fa-envelope"></i>
+    </a>
+  {% endif %}
+  {% if site.twitter %}
+    <a class="link" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener" aria-label="Twitter">
+      <i class="fa-brands fa-x-twitter"></i>
+    </a>
+  {% endif %}
+</div>
+
+
