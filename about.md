@@ -2,26 +2,16 @@
 title: About
 layout: page
 ---
-<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="width:150px; border-radius:50%; margin-bottom:10px;">
-<p>
-  {% if site.linkedin %}
-    <a class="link" data-title="linkedin.com/in/{{ site.linkedin }}" href="https://www.linkedin.com/in/{{ site.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
-  {% endif %}
 
-  {% if site.github %}
-    <a class="link" data-title="github.com/{{ site.github }}" href="https://github.com/{{ site.github }}" target="_blank" rel="noopener" aria-label="GitHub">
-      <i class="fa-brands fa-github"></i>
-    </a>
-  {% endif %}
+<!-- Profile photo -->
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" class="about-photo">
 
-  {% if site.email %}
-    <a class="link" data-title="{{ site.email }}" href="mailto:{{ site.email }}" rel="noopener" aria-label="Email">
-      <i class="fa-regular fa-envelope"></i>
-    </a>
-  {% endif %}
-</p>
+<!-- Social icons -->
+{% include social-links-about.html %}
+
+---
+
+## About Me
 
 <p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
