@@ -3,7 +3,7 @@ title: About
 layout: page
 ---
 
-<img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+<img class="title-image" src="{{ page.image }}" >
 
 
 <h1 class="title">{{ page.title }}</h1>
