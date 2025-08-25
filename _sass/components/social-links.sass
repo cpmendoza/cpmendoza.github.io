@@ -1,17 +1,18 @@
 .social-links
-    > .link
-        margin: 0
-        text-decoration: none
-        position: relative
-        display: inline-block
-        height: 50px
-        width: 50px
-        color: $zeta
+  > .link
+    margin: 0
+    text-decoration: none
+    position: relative
+    display: inline-block
+    height: 50px
+    width: 50px
+    color: $zeta
 
-        &:hover
-            > svg
-                color: $delta
+    i, svg
+      font-size: 2em       // scale up <i> or <svg>
+      line-height: 50px    // center vertically
 
-    > svg
-        font-size: 2em
-        transition: all ease-in-out .2s
+    &:hover
+      > i, > svg
+        color: $delta
+
