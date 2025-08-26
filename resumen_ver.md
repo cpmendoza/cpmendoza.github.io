@@ -10,7 +10,7 @@ permalink: /resume_cv/
 
 <div align="center">
   <a class="btn-flask" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
-    Check out my Flask-based résumé
+    <i class="fa-regular fa-file-lines"></i> Executive Résumé
   </a>
 </div>
 
