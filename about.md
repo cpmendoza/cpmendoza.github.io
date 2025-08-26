@@ -9,9 +9,9 @@ layout: page
 
 ## About Me
 
-<p>I am <strong>Carlos</strong>, a <strong>Postdoctoral Fellow at McGill University</strong>, researcher and AI scientist with a Ph.D. in Mathematics & Statistics and over 8 years of experience bridging machine learning, reinforcement learning, and probabilistic modeling with real-world applications in finance, risk management, and healthcare innovation.</p>
+<p style="text-align: justify;">I am <strong>Carlos</strong>, a <strong>Postdoctoral Fellow at McGill University</strong>, researcher and AI scientist with a Ph.D. in Mathematics & Statistics and over 8 years of experience bridging machine learning, reinforcement learning, and probabilistic modeling with real-world applications in finance, risk management, and healthcare innovation.</p>
 
-<p>My work combines academic rigor and industry experience, creating AI systems that are reliable, explainable, and impactful.</p>
+<p style="text-align: justify;">My work combines academic rigor and industry experience, creating AI systems that are reliable, explainable, and impactful.</p>
 
 <h2>Current Projects</h2>
 <ul class="skill-list">
@@ -29,7 +29,7 @@ layout: page
 </ul>
 
 <h2>My Vision</h2>
-<p>I aim to push the boundaries of AI for decision-making under uncertainty. Whether advancing reinforcement learning for complex risk management or building machine learning pipelines that turn data into actionable insights. I am committed to creating AI you can trust, powering smarter, more resilient systems for the future.</p>
+<p style="text-align: justify;">I aim to push the boundaries of AI for decision-making under uncertainty. Whether advancing reinforcement learning for complex risk management or building machine learning pipelines that turn data into actionable insights. I am committed to creating AI you can trust, powering smarter, more resilient systems for the future.</p>
 
 
 
