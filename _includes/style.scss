@@ -59,25 +59,31 @@
 }
 
 
-/* Outline-style button like Rodolfo Ferro's site */
-.resume-buttons {
+/* Button styles inspired by Rodolfo Ferro's site */
+.btn {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 1.25;
   text-align: center;
-  margin-top: 20px;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: 2px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 50px; /* pill shape */
+  transition: all 0.2s ease-in-out;
 }
 
 .btn-outline {
-  display: inline-block;
-  padding: 12px 22px;
-  border-radius: 999px;         /* pill shape */
-  text-decoration: none;
-  border: 2px solid #111;       /* dark outline */
-  color: #111;                  /* text color */
-  background: transparent;
-  font-weight: 500;
-  transition: all 0.25s ease-in-out;
+  color: #111;
+  border-color: #111;
+  background-color: transparent;
 }
 
 .btn-outline:hover {
-  background: #111;             /* fill with dark on hover */
-  color: #fff;                  /* white text */
+  color: #fff;
+  background-color: #111;
+  border-color: #111;
+  text-decoration: none;
 }
