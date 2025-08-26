@@ -12,7 +12,7 @@ permalink: /resume_cv/
 
 <!-- Call-to-action button right under image + icons -->
 <div class="resume-buttons">
-  <a class="btn" href="/assets/resume/Carlos_P_Mendoza_CV.pdf" target="_blank" rel="noopener">
+  <a class="btn" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
     📄 Check out my short executive résumé (PDF)
   </a>
 </div>
