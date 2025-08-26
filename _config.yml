@@ -18,7 +18,8 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: False
-resume-url: /assets/cv_copm_ind.pdf
+resume-url: resume.md 
+#/assets/cv_copm_ind.pdf
 
 url: https://cpmendoza.github.io
 # your url: https://USERNAME.github.io
