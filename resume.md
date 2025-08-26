@@ -1,6 +1,7 @@
 ---
 title: Résumé
 layout: page
+permalink: /resume/
 ---
 
 <!-- Small headshot -->
