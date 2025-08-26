@@ -21,11 +21,11 @@ layout: page
 
 <h2>Background</h2>
 <ul class="skill-list" style="text-align: justify;">
-	<li>Ph.D. in Mathematics & Statistics (Concordia University)</li>
-	<li>Industry roles spanning quantitative trading, applied AI innovation, and actuarial consulting</li>
-	<li>Research fellowships and grants, including MITACS Elevate and Canadian Institute of Actuaries support</li>
-	<li>Publications in top journals such as <em>Finance Research Letters</em> and <em>Mathematical Finance</em></li>
-	<li>Teaching roles in Machine Learning and AI at Concordia University and Université de Montréal</li>
+	<li>Ph.D. in Mathematics & Statistics (Concordia University).</li>
+	<li>Industry roles spanning quantitative trading, applied AI innovation, and actuarial consulting.</li>
+	<li>Research fellowships and grants, including MITACS Elevate and Canadian Institute of Actuaries support.</li>
+	<li>Publications in top journals such as <em>Finance Research Letters</em> and <em>Mathematical Finance</em>.</li>
+	<li>Teaching roles in Machine Learning and AI at Concordia University and Université de Montréal.</li>
 </ul>
 
 <h2>My Vision</h2>
