@@ -59,20 +59,16 @@
 }
 
 
-/* Button styles inspired by Rodolfo Ferro's site */
 .btn {
   display: inline-block;
   font-weight: 500;
-  line-height: 1.25;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  user-select: none;
   border: 2px solid transparent;
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 50px; /* pill shape */
   transition: all 0.2s ease-in-out;
+  margin: 5px; /* space between buttons */
 }
 
 .btn-outline {
