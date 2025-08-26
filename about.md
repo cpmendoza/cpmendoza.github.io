@@ -9,33 +9,33 @@ layout: page
 
 ## About Me
 
-<p>I am <strong>Carlos Octavio Pérez Mendoza</strong>, a <strong>Postdoctoral Fellow at McGill University</strong>, researcher and AI scientist with a Ph.D. in Mathematics & Statistics and over 8 years of experience bridging machine learning, reinforcement learning, and probabilistic modeling with real-world applications in finance, risk management, and healthcare innovation.</p>
+<p>I am <strong>Carlos</strong>, a <strong>Postdoctoral Fellow at McGill University</strong>, researcher and AI scientist with a Ph.D. in Mathematics & Statistics and over 8 years of experience bridging machine learning, reinforcement learning, and probabilistic modeling with real-world applications in finance, risk management, and healthcare innovation.</p>
 
 <p>My work combines academic rigor and industry experience, creating AI systems that are reliable, explainable, and impactful.</p>
 
-<h2>🔬 Current Projects</h2>
+<h2>Current Projects</h2>
 <ul class="skill-list">
 	<li><strong>Digital Health:</strong> Building end-to-end ML pipelines to improve heart failure screening and biomarker detection, ensuring data quality and advancing clinical research.</li>
 	<li><strong>Risk & Finance:</strong> Developing a reinforcement learning framework for catastrophic risk in high-dimensional decision-making, pushing the frontier of hedging strategies and actuarial risk modeling.</li>
 </ul>
 
-<h2>🎓 Background</h2>
+<h2>Background</h2>
 <ul class="skill-list">
-	<li>Ph.D. in Mathematics & Statistics (Concordia University, GPA 4.3/4.3)</li>
+	<li>Ph.D. in Mathematics & Statistics (Concordia University)</li>
+	<li>Industry roles spanning quantitative trading, applied AI innovation, and actuarial consulting</li>
 	<li>Research fellowships and grants, including MITACS Elevate and Canadian Institute of Actuaries support</li>
 	<li>Publications in top journals such as <em>Finance Research Letters</em> and <em>Mathematical Finance</em></li>
 	<li>Teaching roles in Machine Learning and AI at Concordia University and Université de Montréal</li>
-	<li>Industry roles spanning quantitative trading, applied AI innovation, and actuarial consulting</li>
 </ul>
 
-<h2>🌍 My Vision</h2>
-<p>I aim to push the boundaries of AI for decision-making under uncertainty. Whether developing deep reinforcement learning for hedging strategies or ML pipelines that transform healthcare data into actionable insights, I’m committed to creating AI you can trust — powering smarter, more resilient systems for the future.</p>
+<h2>My Vision</h2>
+<p>I aim to push the boundaries of AI for decision-making under uncertainty. Whether advancing reinforcement learning for complex risk management or building machine learning pipelines that turn data into actionable insights. I am committed to creating AI you can trust, powering smarter, more resilient systems for the future.</p>
 
 
 
 ---
 
-<p class="contact-heading">Let’s connect if you are looking for someone who can bridge deep technical expertise with practical impact in finance, healthcare, and beyond.:</p>
+<p class="contact-heading">Let’s connect if you are looking for AI expertise that drives real impact across finance, healthcare, and beyond:</p>
 
 <div class="about-social">
   {% if site.linkedin %}
