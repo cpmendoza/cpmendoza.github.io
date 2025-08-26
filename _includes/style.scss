@@ -59,55 +59,58 @@
 }
 
 
-/* Elegant animated button */
+/* Reverse: lines visible by default, disappear on hover */
 .btn-flask {
   position: relative;
   display: inline-block;
   padding: 12px 24px;
-  background: rgba(30, 30, 30, 0.85); /* dark gray semi-transparent */
-  color: #fff;
+  background: #fff;            /* white box by default */
+  color: #000;                 /* black text */
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.5px;
+  border-radius: 8px;          /* rectangle with soft corners */
   transition: background 0.6s ease, color 0.6s ease;
   overflow: hidden;
 }
 
-/* Lines (top & bottom) */
+/* Lines visible initially */
 .btn-flask::before,
 .btn-flask::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 0;
-  background: #000;
-  transition: width 1.2s ease; /* slower, visible effect */
+  width: 100%;                 /* full width at rest */
+  background: #000;            /* black lines */
+  transition: width 1.2s ease; /* slower so effect is appreciable */
 }
 
-/* Top line: from right → left */
+/* Top line (initially full, anchored to the right edge) */
 .btn-flask::before {
   top: 0;
-  right: 0;
+  right: 0;                    /* anchor right; shrinking reduces width toward right */
 }
 
-/* Bottom line: from left → right */
+/* Bottom line (initially full, anchored to the left edge) */
 .btn-flask::after {
   bottom: 0;
-  left: 0;
+  left: 0;                     /* anchor left; shrinking reduces width toward left */
 }
 
+/* Hover: fill dark, invert text, and retract lines */
 .btn-flask:hover {
-  background: #fff; /* fill changes to white */
-  color: #000;      /* text turns black */
+  background: rgba(30, 30, 30, 0.85); /* elegant dark fill */
+  color: #fff;
 }
 
-/* Animate lines on hover */
+/* Retract directions:
+   - Top line: right → left (width collapses toward right)
+   - Bottom line: left → right (width collapses toward left)
+*/
 .btn-flask:hover::before {
-  left: 0;
-  right: auto;
-  width: 100%;
+  width: 0;   /* with right:0, this visually retracts rightward (right→left disappearance) */
 }
 
 .btn-flask:hover::after {
-  width: 100%;
+  width: 0;   /* with left:0, this visually retracts leftward (left→right disappearance) */
 }
