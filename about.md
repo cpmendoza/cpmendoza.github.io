@@ -14,13 +14,13 @@ layout: page
 <p style="text-align: justify;">My work combines academic rigor and industry experience, creating AI systems that are reliable, explainable, and impactful.</p>
 
 <h2>Current Projects</h2>
-<ul class="skill-list">
+<ul class="skill-list" style="text-align: justify;">
 	<li><strong>Digital Health:</strong> Building end-to-end ML pipelines to improve heart failure screening and biomarker detection, ensuring data quality and advancing clinical research.</li>
 	<li><strong>Risk & Finance:</strong> Developing a reinforcement learning framework for catastrophic risk in high-dimensional decision-making, pushing the frontier of hedging strategies and actuarial risk modeling.</li>
 </ul>
 
 <h2>Background</h2>
-<ul class="skill-list">
+<ul class="skill-list" style="text-align: justify;">
 	<li>Ph.D. in Mathematics & Statistics (Concordia University)</li>
 	<li>Industry roles spanning quantitative trading, applied AI innovation, and actuarial consulting</li>
 	<li>Research fellowships and grants, including MITACS Elevate and Canadian Institute of Actuaries support</li>
