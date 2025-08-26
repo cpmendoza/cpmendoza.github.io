@@ -52,7 +52,7 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 ---
 
-<p class="contact-heading">Please do not hesitate to contact me:</p>
+<p class="contact-heading">Let’s connect if you are looking for someone who can bridge deep technical expertise with practical impact in finance, healthcare, and beyond.:</p>
 
 <div class="about-social">
   {% if site.linkedin %}
