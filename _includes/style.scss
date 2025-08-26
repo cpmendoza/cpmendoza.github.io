@@ -57,3 +57,27 @@
   display: block;         /* make sure it behaves like a block */
   width: 100%;            /* occupy full width */
 }
+
+
+/* Outline-style button like Rodolfo Ferro's site */
+.resume-buttons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn-outline {
+  display: inline-block;
+  padding: 12px 22px;
+  border-radius: 999px;         /* pill shape */
+  text-decoration: none;
+  border: 2px solid #111;       /* dark outline */
+  color: #111;                  /* text color */
+  background: transparent;
+  font-weight: 500;
+  transition: all 0.25s ease-in-out;
+}
+
+.btn-outline:hover {
+  background: #111;             /* fill with dark on hover */
+  color: #fff;                  /* white text */
+}
