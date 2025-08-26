@@ -4,11 +4,9 @@ layout: page
 permalink: /resume_cv/
 ---
 
-<!-- Small headshot -->
-<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" class="about-photo">
+<img src="{{ site.url }}/{{ site.picture }}" alt="Profile Image" style="width:150px; border-radius:50%; margin-bottom:10px;">
 
-<!-- Social icons -->
-{% include social-links-about.html %}
+
 
 <!-- Call-to-action button right under image + icons -->
 <div class="resume-buttons">
