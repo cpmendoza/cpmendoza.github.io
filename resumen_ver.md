@@ -16,10 +16,12 @@ permalink: /resume_cv/
   </a>
 </div>
 
+
+
 <div align="center">
   <a class="btn-flask" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
     <i class="fa-regular fa-file-lines"></i> Executive Résumé
   </a>
 </div>
 
----
+
