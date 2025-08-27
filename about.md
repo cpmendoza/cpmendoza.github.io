@@ -15,7 +15,7 @@ layout: page
 
 <h2>Current Projects</h2>
 <ul class="skill-list" style="text-align: justify;">
-	<li><strong>Risk & Finance:</strong> Developing a reinforcement learning framework for catastrophic risk in high-dimensional decision-making, pushing the frontier of hedging strategies and actuarial risk modeling.</li>
+	<li><strong>Risk & Finance:</strong> Developing a reinforcement learning framework to manage catastrophic risk in high-dimensional decision-making environments.</li>
 	<li><strong>Digital Health:</strong> Building end-to-end ML pipelines to improve heart failure screening and biomarker detection, ensuring data quality and advancing clinical research.</li>
 </ul>
 
