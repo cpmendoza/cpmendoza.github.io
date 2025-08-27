@@ -10,18 +10,15 @@ permalink: /resume_cv/
 
 ---
 
-<div align="center">
+<div align="center" style="margin-bottom:20px;">
   <a class="btn-flask" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
     <i class="fa-regular fa-file-lines"></i> Executive Résumé
   </a>
 </div>
 
-
-
 <div align="center">
   <a class="btn-flask" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
-    <i class="fa-regular fa-file-lines"></i> Executive Résumé
+    <i class="fa-solid fa-graduation-cap"></i> Full Academic CV
   </a>
 </div>
-
 
