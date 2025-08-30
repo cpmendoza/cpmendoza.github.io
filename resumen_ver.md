@@ -17,7 +17,7 @@ permalink: /resume_cv/
 </div>
 
 <div align="center">
-  <a class="btn-flask" href="/assets/cv_copm_ind.pdf" target="_blank" rel="noopener">
+  <a class="btn-flask" href="/assets/cv_copm_2025_reser_actfin.pdf" target="_blank" rel="noopener">
     <i class="fa-solid fa-graduation-cap"></i> Full Academic CV
   </a>
 </div>
